@@ -7,7 +7,7 @@
     const footerBtn2 = document.createElement("ui5-button");
     // set attributes
     dialog.setAttribute("header-text", "Sign Up Today");
-    dialog.setAttribute("style","background-image:url(https://assets.website-files.com/5f44b8d81f91225c6f1f1e90/64801e25e69626f38c4c9176_erp-namibia-p-500.jpg);font-family:courier;");
+    dialog.setAttribute("style","background-image:url(https://assets.website-files.com/5f44b8d81f91225c6f1f1e90/6294867a2d0c467e99b59e37_melorane-5.jpg);font-family:courier;");
     footer.setAttribute("slot", "footer");
 
     // content
