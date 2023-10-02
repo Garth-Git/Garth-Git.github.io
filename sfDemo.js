@@ -9,6 +9,7 @@
     dialog.setAttribute("header-text", "Sign Up Today");
     dialog.setAttribute("style","background-color:CornflowerBlue;");
     footer.setAttribute("slot", "footer");
+    footer.setAttribute("style","background-color:CadetBlue;");
     // content
     content.innerHTML = "<h2>Sign Up</h2><p>Sign up for our newsletter</p><form>  <label for='fname'>Email Address:</label><br><input type='text' id='email' name='email' value='john.doe@demo.com'><br><br><label for='animal'>Favourite animal:</label><br><select id='animal' name='animal'><option value='rhino'>Rhino</option><option value='elephant'>Elephant</option><option value='lion'>Lion</option><option value='giraffe'>Griaffe</option></select><br><br></form>";
     content.style.padding = "1rem";
