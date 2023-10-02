@@ -7,12 +7,13 @@
     const footerBtn2 = document.createElement("ui5-button");
     // set attributes
     dialog.setAttribute("header-text", "Sign Up Today");
-    dialog.setAttribute("style","background-color:CornflowerBlue;");
+    dialog.setAttribute("style","background-image:url(https://assets.website-files.com/5f44b8d81f91225c6f1f1e90/64801e25e69626f38c4c9176_erp-namibia-p-500.jpg);font-family:courier;");
     footer.setAttribute("slot", "footer");
-    footer.setAttribute("style","background-color:CadetBlue;");
+
     // content
     content.innerHTML = "<h2>Sign Up</h2><p>Sign up for our newsletter</p><form>  <label for='fname'>Email Address:</label><br><input type='text' id='email' name='email' value='john.doe@demo.com'><br><br><label for='animal'>Favourite animal:</label><br><select id='animal' name='animal'><option value='rhino'>Rhino</option><option value='elephant'>Elephant</option><option value='lion'>Lion</option><option value='giraffe'>Griaffe</option></select><br><br></form>";
     content.style.padding = "1rem";
+    
     // footer btn
     footerBtn.onclick = () => { alert('Thank you!'); dialog.close(); }
     footerBtn.innerHTML = "Submit";
